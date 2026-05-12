@@ -19,5 +19,6 @@ with st.sidebar:
   )
   # 增加 AI 創意度調整桿
   temp = st.slider("AI 靈活度(Temperature)", 0.0, 1.0, 0.7)
-
+  st.divider() # 畫出一條美觀的分隔線
+  st.info(f"當前連線:{service_type}")
 
